@@ -1,14 +1,13 @@
 {
   "name": "make-me-shorter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "author": "Rafael Santana Oliveira",
   "dependencies": {
-    "framer-motion": "^4.1.17",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "sass": "^1.35.1"    
+    "sass": "^1.35.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,7 +16,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app"
+      "react-app",
+      "prettier"
     ]
   },
   "browserslist": {
@@ -31,5 +31,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "^2.3.2"
   }
 }
