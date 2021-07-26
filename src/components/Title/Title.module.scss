@@ -1,0 +1,20 @@
+@use '../../styles/variables' as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .title {
+    color: $color-primary;
+    font-size: clamp(4rem, 2.8571rem + 5.7143vw, 8rem);
+    margin-bottom: -1.2rem;
+  }
+
+  .subtitle {
+    color: $color-tertiary;
+    font-size: clamp(0.875rem, 0.6429rem + 1.1607vw, 1.6875rem);
+    margin-left: 0.25rem;
+  }
+}
+

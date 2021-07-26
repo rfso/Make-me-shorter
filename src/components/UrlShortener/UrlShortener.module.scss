@@ -1,0 +1,16 @@
+.mainContainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2.5rem;
+
+  .finalUrlsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 456px;
+    width: 100%;
+  }
+}
