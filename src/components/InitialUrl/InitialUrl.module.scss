@@ -1,0 +1,36 @@
+@use '../../styles/variables' as *;
+
+
+.container {
+  border-radius: 4px;
+  background-color: $color-primary;
+  margin-top: 8rem;
+  max-width: 36.625rem;
+  width: 100%;
+
+  .form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .input {
+    border: 2px solid transparent;
+    border-bottom: 3px solid $color-secondary;
+    font-family: inherit;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 80%;
+
+    &:focus {
+      border-color: $color-secondary;
+    }
+  }
+
+  .error {
+    color: $color-error;
+    text-align: center;
+  }
+}
