@@ -1,6 +1,6 @@
 #  Make me shorter (Url Shortener)
 
-⚠️WARNING⚠️ The API that I've decided to use doesn't work well sometimes. I'm searching for a new one.
+⚠️⚠️WARNING⚠️⚠️ The API that I've decided to use is DEAD. I'm searching for a new one.
 
 ##  Full Access
 
